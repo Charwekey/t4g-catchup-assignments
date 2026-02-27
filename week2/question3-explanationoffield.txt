@@ -1,0 +1,85 @@
+Meaning of Each Field for DEV_ALICE
+
+dev_alice:x:1004:1005::/home/dev_alice:/bin/bash
+
+1. Username → dev_alice
+
+This is the user’s login name.
+
+The user logs in using this name.
+
+2. Password placeholder → x
+
+The x means the encrypted password is stored in the /etc/shadow file.
+
+For security reasons, passwords are not kept directly in /etc/passwd.
+
+3. UID (User ID) → 1004
+
+This is the unique numeric ID for the user.
+So 1004 means this is a regular user account.
+
+4. GID (Group ID) → 1005
+
+This is the primary group ID of the user.
+
+Group details are stored in /etc/group.
+
+The user belongs to the group with ID 1005.
+
+6. Home Directory → /home/dev_alice
+
+This is the user’s personal directory.
+
+When dev_alice logs in, they start in this folder.
+
+7. Login Shell → /bin/bash
+
+This is the default shell that runs when the user logs in.
+
+/bin/bash means the user will use the Bash shell.
+
+
+
+
+Meaning of Each Field for DEV_BOB
+
+dev_bob:x:1005:1006::/home/dev_bob:/bin/bash
+
+
+1. Username → dev_bob
+
+This is the user’s login name.
+
+The user logs in using this name.
+
+2. Password placeholder → x
+
+The x means the encrypted password is stored in the /etc/shadow file.
+
+For security reasons, passwords are not kept directly in /etc/passwd.
+
+3. UID (User ID) → 1005
+
+This is the unique numeric ID for the user.
+So 1005 means this is a regular user account.
+
+4. GID (Group ID) → 1006
+
+This is the primary group ID of the user.
+
+Group details are stored in /etc/group.
+
+The user belongs to the group with ID 1006.
+
+6. Home Directory → /home/dev_bob
+
+This is the user’s personal directory.
+
+When dev_bob logs in, they start in this folder.
+
+7. Login Shell → /bin/bash
+
+This is the default shell that runs when the user logs in.
+
+/bin/bash means the user will use the Bash shell.
