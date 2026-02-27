@@ -1,0 +1,53 @@
+a) -rwxr-xr--
+
+- → This is a regular file (not a directory).
+
+rwx → Owner can read, write, and execute the file.
+
+r-x → Group can read and execute, but cannot write.
+
+r-- → Others can only read.
+
+b) drwxrwx---
+
+d → This is a directory.
+
+rwx → Owner can read, write, and execute (execute means they can enter the directory).
+
+rwx → Group can read, write, and execute.
+
+--- → Others have no permissions.
+
+c) -rw-r--r--
+
+- → This is a regular file.
+
+rw- → Owner can read and write, but cannot execute.
+
+r-- → Group can only read.
+
+r-- → Others can only read.
+
+d) chmod 750 file
+
+Numeric 750 → Owner: 7 (rwx), Group: 5 (r-x), Others: 0 (---)
+
+Meaning:
+
+Owner can read, write, execute.
+
+Group can read and execute.
+
+Others have no access.
+
+e) chmod 600 file
+
+Numeric 600 → Owner: 6 (rw-), Group: 0 (---), Others: 0 (---)
+
+Meaning:
+
+Owner can read and write.
+
+Group has no access.
+
+Others have no access.
