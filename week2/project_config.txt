@@ -1,0 +1,16 @@
+If project_config.txt has permission 600 (rw-------):
+
+Owner can:
+1. Read the file
+2. Write in the file
+3. But cannot Execute the file
+
+Group members cannot:
+1. Read
+2. Write
+3. Execute
+
+Other users cannot:
+1. Read
+2. Write
+3. Execute
