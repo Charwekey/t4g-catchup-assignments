@@ -23,4 +23,9 @@ print(f"Age: {age}")
 print(f"Class: {cohort_updated}")
 print(f"Cohort: {cohort} (Week {current_week})")
 print(f"Favourite Topic: {fav_topic_updated} ")
-print(f"Skills I’m Good At: {skills_good} ")
+print(f"Skills I’m Good At: {skills_good}\n")
+
+
+current_week = 4
+weeks_left = 12 - current_week
+print(f"Weeks left in the program: {weeks_left:<18} ")
