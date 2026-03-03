@@ -9,3 +9,10 @@ print(lastname)
 print(age)
 print(fav_progammningconcept)
 
+#Task 2
+full_name  = firstname + " " + lastname
+print(full_name)
+
+full_name_formatted =( f"{firstname} {lastname}")
+print(full_name_formatted)
+
