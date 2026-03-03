@@ -16,3 +16,10 @@ print(full_name)
 full_name_formatted =( f"{firstname} {lastname}")
 print(full_name_formatted)
 
+#Task 3
+print(firstname.upper())
+print(firstname.lower())
+print(firstname.lower().count('a'))
+print(firstname.find('h'))
+print(firstname.replace("Charwekey","Coder"))
+
