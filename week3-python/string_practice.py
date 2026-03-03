@@ -17,11 +17,11 @@ full_name_formatted =( f"{firstname} {lastname}")
 print(full_name_formatted)
 
 #Task 3
-print(firstname.upper())
-print(firstname.lower())
-print(firstname.lower().count('a'))
-print(firstname.find('h'))
-print(firstname.replace("Charwekey","Coder"))
+print(full_name.upper())
+print(full_name.lower())
+print(full_name.lower().count('a'))
+print(full_name.index(' '))
+print(full_name.replace("Charwekey","Coder"))
 
 
 #Task 4
@@ -30,3 +30,4 @@ print(f"Hi, I am {full_name} and I am {age} years old and my favourite concept s
 #Task 5
 print(full_name[0])
 print(full_name[-1])
+
