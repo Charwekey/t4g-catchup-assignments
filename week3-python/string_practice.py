@@ -27,3 +27,6 @@ print(firstname.replace("Charwekey","Coder"))
 #Task 4
 print(f"Hi, I am {full_name} and I am {age} years old and my favourite concept so far is {fav_progammningconcept}.")
 
+#Task 5
+print(full_name[0])
+print(full_name[-1])
