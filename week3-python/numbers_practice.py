@@ -61,3 +61,13 @@ print(numfloat_modulus)
 #raises numfloat to the power of numfloat2
 numfloat_exponentiation = numfloat ** numfloat2
 print(numfloat_exponentiation)
+
+
+#Task 2
+length = 5
+width = 3
+area = length * width
+
+perimeter = 2 * (length + width)
+
+print (f" A rectangle with length {length} and width {width} has an area of {area} and a perimeter of {perimeter}.")
