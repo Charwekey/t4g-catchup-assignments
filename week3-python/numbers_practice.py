@@ -34,3 +34,30 @@ print(num_modulus)
 num_exponentiation = num1 ** num2
 print(num_exponentiation)
 
+#performs the addition on numfloat and numfloat2
+numfloat_sum = numfloat + numfloat2
+print(numfloat_sum)
+
+#performs the subtraction on numfloat and numfloat2
+numfloat_diff = numfloat - numfloat2
+print(numfloat_diff)    
+
+#performs the multiplication on numfloat and numfloat2
+numfloat_product = numfloat * numfloat2
+print(numfloat_product)
+
+#performs the division on numfloat and numfloat2
+numfloat_division = numfloat / numfloat2
+print(numfloat_division)    
+
+#performs floor division on numfloat and numfloat2
+numfloat_floor_division = numfloat // numfloat2
+print(numfloat_floor_division)
+
+#calculates the modulus of numfloat and numfloat2
+numfloat_modulus = numfloat % numfloat2
+print(numfloat_modulus)
+
+#raises numfloat to the power of numfloat2
+numfloat_exponentiation = numfloat ** numfloat2
+print(numfloat_exponentiation)
