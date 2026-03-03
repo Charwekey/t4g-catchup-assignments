@@ -71,3 +71,17 @@ area = length * width
 perimeter = 2 * (length + width)
 
 print (f" A rectangle with length {length} and width {width} has an area of {area} and a perimeter of {perimeter}.")
+
+
+
+#Task 3
+number = float(20)
+print(number)
+
+number2 = int(3.4)
+print(number2)
+
+print(type(number))
+print(type(number2))
+print(type(numfloat))
+print(type(num1))
