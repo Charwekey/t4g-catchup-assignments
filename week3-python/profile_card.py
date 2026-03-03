@@ -12,3 +12,6 @@ skills_good = "Frontend development"
 
 
 
+cohort_updated= cohort_class.upper()
+fullname= full_name.title()
+fav_topic_updated = fav_topic.replace("loops", "functions")
